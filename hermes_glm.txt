@@ -1,0 +1,2 @@
+GLM_API_KEY: 1614cd4b21044c7898a859a46b610fd8.6tpezYlNCT7Ro6tV"
+Coding Plan URL: https://open.bigmodel.cn/api/coding/paas/v4
