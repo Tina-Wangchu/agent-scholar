@@ -1,0 +1,3 @@
+创建email skill prompt：
+现在我需要创建一个开发邮件发送 Skill
+我在tui或者微信中向agent描述我要
