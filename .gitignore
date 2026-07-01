@@ -1,0 +1,30 @@
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# Temporary files
+paper-skill/tmp/
+paper-skill/past_test/
+
+# Log files
+paper-email-service-skill/logs/
+*.log
+
+# Cache directories
+paper-email-service-skill/**/__pycache__/
+**/__pycache__/
+
+# External downloads
+Hermes-Agent/
+
+# Document files
+*.docx
+*.doc
+
+# Environment files (contains sensitive information)
+.env
+.env.local
+
+# PDF reports (optional - uncomment if you want to exclude PDFs)
+# *.pdf

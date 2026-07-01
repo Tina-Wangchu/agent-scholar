@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>学术论文报告</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .header {
+            background-color: #f4f4f4;
+            padding: 20px;
+            text-align: center;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+        .summary {
+            background-color: #e9f7fe;
+            padding: 15px;
+            border-left: 4px solid #2196F3;
+            margin: 15px 0;
+        }
+        .footer {
+            margin-top: 30px;
+            padding-top: 15px;
+            border-top: 1px solid #ddd;
+            font-size: 12px;
+            color: #777;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h2>📚 {topic} 学术报告</h2>
+        <p>生成时间: {date}</p>
+    </div>
+
+    <div class="summary">
+        <h3>📊 报告摘要</h3>
+        <p><strong>论文总数:</strong> {papers_count} 篇</p>
+        <p><strong>时间范围:</strong> {time_range}</p>
+        <p><strong>研究领域:</strong> {topic}</p>
+    </div>
+
+    <div class="footer">
+        <p>📧 本报告由 <strong>Hermes 学术助手</strong> 自动生成并发送</p>
+        <p>📎 报告PDF已作为附件发送，请查收</p>
+    </div>
+</body>
+</html>
